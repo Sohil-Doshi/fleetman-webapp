@@ -87,8 +87,8 @@ pipeline {
 
         stage('Update Deployment file') {
             environment {
-                GIT_REPO_NAME = ${SERVICE_NAME}
-                GIT_ORG_NAME = ${ORGANIZATION_NAME}
+                GIT_REPO_NAME = "fleetman-webapp"
+                GIT_ORG_NAME = "Sohil-Doshi"
             }
             steps {
               dir('manifests') {
