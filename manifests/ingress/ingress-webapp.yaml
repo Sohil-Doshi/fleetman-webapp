@@ -9,7 +9,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: fleetman.deepaktyagi.tech
+    - host: fleetman.sohildoshi.buzz
       http:
         paths:
           - path: /
