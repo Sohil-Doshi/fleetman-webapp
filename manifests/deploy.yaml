@@ -30,4 +30,5 @@ spec:
   ports:
     - name: http
       port: 80
+      targetport: 80
   type: LoadBalancer
